@@ -1,0 +1,36 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+html {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  margin-bottom: 50px;
+}
+img {
+  object-fit: contain;
+  width: 40%;
+}
+.bold {
+  font-weight: 700;
+}
+.list-margin {
+  margin-left: 20px;
+}
+
+table td,
+table th,
+table {
+  border: 1px solid black;
+}
+tr td:first-child {
+  font-weight: 700;
+}
+table {
+  margin: 0 auto;
+}
